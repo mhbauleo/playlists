@@ -3,6 +3,7 @@ dotenv.config();
 
 const config = {
   PORT: process.env.PORT || 8080,
+  EXPIRE_TIME: process.env.EXPIRE_TIME,
   DB: process.env.DB,
   SQL_HOST: process.env.SQL_HOST,
   SQL_USER: process.env.SQL_USER,
