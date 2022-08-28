@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const config = require("../../../listas-de-reproduccion/config");
+const config = require("../../config");
 
 const dbConnection = async () => {
   try {
